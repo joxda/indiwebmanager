@@ -5,7 +5,7 @@ After=multi-user.target
 [Service]
 Type=idle
 # MUST SET YOUR USERNAME HERE.
-User=pi
+User=tahti
 ExecStart=/usr/local/bin/indi-web -v
 Restart=always
 RestartSec=5
